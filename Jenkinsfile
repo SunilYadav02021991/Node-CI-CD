@@ -13,13 +13,7 @@ pipeline {
    stages {
       stage('NPM Version') {
       steps {
-         sh 'npm -v'
-      }
-   }
-   stages {
-      stage('NODE Version') {
-      steps {
-         sh 'node -v'
+         sh 'npm --version'
       }
    }
 
