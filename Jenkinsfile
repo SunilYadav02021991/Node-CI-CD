@@ -4,23 +4,23 @@ pipeline {
          PATH='/usr/local/bin:/usr/bin:/bin'
       }
    stages {
-      stage('Install dependencies') {
+      stage('NPM Setup') {
       steps {
          sh 'npm install'
       }
    }
 
-   stage('Running tests') {
+   stages {
+      stage('NPM Version') {
       steps {
-      echo "/scripts/test"
+         sh 'npm -v'
+      }
    }
-  }
-
-   stage('Done') {
+   stages {
+      stage('NODE Version') {
       steps {
-       echo "Build is Done"
-    }
+         sh 'node -v'
+      }
    }
 
 }
-
