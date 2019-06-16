@@ -9,11 +9,6 @@ pipeline {
          sh 'npm install'
       }
    }
-   stage('Run application') {
-      steps {
-        sh 'node app.js'
-    }
-  }
 
    stage('Running tests') {
       steps {
