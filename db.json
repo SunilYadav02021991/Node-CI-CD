@@ -1,0 +1,27 @@
+[
+  {
+    "id": 2,
+    "title": "JSON Server is awesome",
+    "author": "Jane Doe"
+  },
+  {
+    "id": 3,
+    "title": "Writing a script into Node",
+    "author": "Sundar Madhav Das"
+  },
+  {
+    "id": 4,
+    "title": "JSON Server is Enabled",
+    "author": "Sunil Yadav"
+  },
+  {
+    "id": 5,
+    "title": "Need to build a CI/CD Pipeline.",
+    "author": "Sundar Madhav Das"
+  },
+  {
+    "id": 1,
+    "title": "Need to build a CI/CD Pipeline.",
+    "author": "Sundar Madhav Das"
+  }
+]
