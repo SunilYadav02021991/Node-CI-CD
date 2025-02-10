@@ -7,9 +7,7 @@
     "start": "node app.js",
     "start:json-server": "json-server --watch db.json --port $JSON_SERVER_PORT",
     "build": "node build.js",
-    "test": "mocha test/*.js",
-    "pretest": "npm run lint",
-    "prestart": "npm run build"
+    "test": "mocha test/*.js"
   },
   "dependencies": {
     "dotenv": "^16.4.7",
