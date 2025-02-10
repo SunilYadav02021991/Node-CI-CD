@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app.js",
     "start:json-server": "json-server --watch db.json --port $JSON_SERVER_PORT",
-    "build": "ndoemon app.js && echo `uild Successfull`",
+    "build": "nodemon app.js && echo `Build is Successfull`",
     "test": "mocha test/*.js"
   },
   "dependencies": {
