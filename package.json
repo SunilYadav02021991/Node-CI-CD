@@ -1,23 +1,27 @@
 {
-   "name": "node-app",
-   "description": "",
-   "version": "0.0.1",
-   "private": true,
-   "scripts": {
-      "start": "node app.js",
-      "start:json-server": "json-server --watch db.json --port $JSON_SERVER_PORT",
-      "lint": "eslint .  .js,.ts"
-   },
-   "dependencies": {
-      "dotenv": "^16.4.7",
-      "express": "3.12.0",
-      "json-server": "^0.16.3"
-   },
-   "devDependencies": {
-      "@eslint/js": "^9.20.0",
-      "eslint": "^9.20.0",
-      "globals": "^15.14.0",
-      "mocha": "1.20.1",
-      "supertest": "0.13.0"
-   }
+  "name": "node-app",
+  "description": "",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "start:json-server": "json-server --watch db.json --port $JSON_SERVER_PORT",
+    "build": "node build.js",
+    "test": "mocha test/*.js",
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "prestart": "npm run build"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "3.12.0",
+    "json-server": "^0.16.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "eslint": "^9.20.0",
+    "globals": "^15.14.0",
+    "mocha": "1.20.1",
+    "supertest": "0.13.0"
+  }
 }
