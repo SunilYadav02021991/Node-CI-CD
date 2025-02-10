@@ -1,6 +1,7 @@
 # Node-CI-CD
 
-= Once code is pushed to github then
+It is a POC for bootstraping the node express app and build CRUD quickly.
+=> Once code is pushed to github then
 
 1. Build and define the Dockerfile and push to the Dockerhub.
 2. Build the CI Pipeline to check the code as Tests Coverage (Test Cases).
