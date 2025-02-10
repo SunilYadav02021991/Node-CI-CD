@@ -7,4 +7,3 @@
 3. So as github actions (need workflows) and jenkins (separate jenkins server).
 4. Implement the GitOps (CD Pipeline) to deploy in kubenetes server.
 5. Install Lens to Monitor the Kubernetives from a Visual Tool.
-
